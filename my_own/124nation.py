@@ -1,7 +1,21 @@
 #124나라의 숫자
 '''
-
-
+There's a '124 nation' They count the number using only 1,2,4 like this:
+Octal / 124 nation
+1   /   1
+2   /   2
+3   /   4
+4   /   11
+5   /   12
+6   /   14
+7   /   21
+8   /   22
+9   /   24
+10  /   41
+.
+.
+.
+When the parameter is 'n', Complete function that convert 'n' to 'what 124 nation do'.
 '''
 from itertools import product
 

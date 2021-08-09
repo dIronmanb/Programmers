@@ -1,17 +1,4 @@
-def solution(n):
-    
-    answer = ''
-    reminder = 0
-    
-    while n > 0:
-        reminder = n % 3
-        n //= 3
-        
-        if(reminder == 0):
-            n -= 1
-            reminder = 4
-        
-        
-        answer = str(reminder) + answer
-        
-    return answer
+1. 그리디 알고리즘
+    그리디 알고리즘(greedy)은 현재 상황에서 지금 당장 좋은 것만 고르는 방법을 의미한다.
+    문제를 풀기 위한 최소한의 아이디어를 떠올릴 수 있는 능력을 요구한다.
+    단순히 가장 좋아 보이는 것을 반복적으로 선택해도 최적의 해가 나오는 지를 검토해봐야 한다. 
